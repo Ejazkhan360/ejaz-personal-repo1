@@ -1,0 +1,8 @@
+---
+- install telnet
+ - hosts: prod
+   tasks:
+     yum:
+       name: telnet
+       state: installed
+...
